@@ -29,7 +29,35 @@ export const useChatStore = defineStore(
       },
       {
         baseUrl: 'https://sydney.b1ng.chat',
-        label: 'Cloudflare Worker',
+        label: 'Bing 1',
+      },
+      {
+        baseUrl: 'https://az.b1ng.chat',
+        label: 'Bing 2',
+      },
+      {
+        baseUrl: 'https://go-proxy-bingai.glitch.me',
+        label: 'Bing 3',
+      },
+      {
+        baseUrl: 'https://b1ng.zeabur.app',
+        label: 'Bing 4',
+      },
+      {
+        baseUrl: 'https://tkgrg2-8080.csb.app',
+        label: 'Bing 5',
+      },
+      {
+        baseUrl: 'https://go-proxy-bingai-cfpg.pages.dev',
+        label: 'Bing 6',
+      },
+      {
+        baseUrl: 'https://sokwith-nbing.hf.space',
+        label: 'Bing 7',
+      },
+      {
+        baseUrl: 'https://vercel.nbing.eu.org',
+        label: 'Bing 8',
       },
       {
         baseUrl: location.origin,
