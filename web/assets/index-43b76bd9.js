@@ -18161,7 +18161,12 @@ const uploadProps = Object.assign(Object.assign({}, useTheme.props), {
       {
         baseUrl: 'https://vc.b1ng.chat',
         label: 'Bing 9',
-      }
+      },
+      {
+        baseUrl: '',
+        label: '自定义',
+        isCus: true,
+      },
             ]),
             r = 3e3,
             i = async l => {
