@@ -18127,7 +18127,7 @@ const uploadProps = Object.assign(Object.assign({}, useTheme.props), {
             n = ref(""),
             o = ref([
       {
-        baseUrl: 'https://sydney.b1ng.chat',
+        baseUrl: 'https://cfwk.b1ng.chat',
         label: 'Bing 1',
       },
       {
@@ -18135,7 +18135,7 @@ const uploadProps = Object.assign(Object.assign({}, useTheme.props), {
         label: 'Bing 2',
       },
       {
-        baseUrl: 'https://go-proxy-bingai.glitch.me',
+        baseUrl: 'https://csb.b1ng.chat',
         label: 'Bing 3',
       },
       {
