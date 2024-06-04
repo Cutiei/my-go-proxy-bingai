@@ -23,16 +23,16 @@ export const useChatStore = defineStore(
     const isShowChatServiceSelectModal = ref(false);
     const selectedSydneyBaseUrl = ref('');
     const sydneyConfigs = ref<SydneyConfig[]>([
-      {
+      /*{
         baseUrl: 'https://sydney.bing.com',
         label: 'Bing 官方',
-      },
+      },*/
       {
         baseUrl: 'https://sydney.b1ng.chat',
         label: 'Bing 1',
       },
       {
-        baseUrl: 'https://az.b1ng.chat',
+        baseUrl: 'https://dc.b1ng.chat',
         label: 'Bing 2',
       },
       {
@@ -60,9 +60,13 @@ export const useChatStore = defineStore(
         label: 'Bing 8',
       },
       {
+        baseUrl: 'https://vc.b1ng.chat',
+        label: 'Bing 9',
+      },
+      /*{
         baseUrl: location.origin,
         label: '本站',
-      },
+      },*/
       {
         baseUrl: '',
         label: '自定义',
