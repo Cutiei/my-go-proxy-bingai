@@ -27,8 +27,8 @@ export const useChatStore = defineStore(
         baseUrl: 'https://sydney.bing.com',
         label: 'Bing 官方',
       },*/
-      {
-        baseUrl: 'https://sydney.b1ng.chat',
+        {
+        baseUrl: 'https://cfwk.b1ng.chat',
         label: 'Bing 1',
       },
       {
@@ -36,7 +36,7 @@ export const useChatStore = defineStore(
         label: 'Bing 2',
       },
       {
-        baseUrl: 'https://go-proxy-bingai.glitch.me',
+        baseUrl: 'https://csb.b1ng.chat',
         label: 'Bing 3',
       },
       {
